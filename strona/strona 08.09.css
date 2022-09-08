@@ -1,0 +1,29 @@
+#naglowek{
+    width: 100%;
+    height: 13em;
+    position: sticky; 
+    top:0;
+    background-color: rgb(18, 4, 97);
+    color: blue;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#menu{
+    width: 100%;
+    height: 150px;
+    background: rgb(47,47,47);
+    background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgb(165, 197, 216) 100%, rgba(0,212,255,1) 100%, rgba(138,172,92,1) 100%, rgba(198,198,62,1) 100%, rgba(132,174,99,1) 100%, rgba(150,169,77,1) 100%);
+    border-radius: px;
+    font-size: larger;
+    text-align: center;
+}
+
+#zawartosc{
+    width: 80%;
+    height: 900px;
+
+}
+
