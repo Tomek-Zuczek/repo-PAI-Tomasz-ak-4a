@@ -12,7 +12,7 @@ echo ($b -$a) * ($b - $a);
 */
 
 
-$a = 0;
+$a = 5;
 switch($a){
     case " ":
         echo "Spacja";
