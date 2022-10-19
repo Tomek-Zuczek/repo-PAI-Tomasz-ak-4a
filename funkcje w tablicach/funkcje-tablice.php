@@ -1,5 +1,5 @@
 <?php
-    $liczby = array("14", "27", "39", "45", "69", "4", "28", "99", "1", "10");
+    $liczby = array(14, 27, 39, 45, 69, 4, 28, 99, 1, 10);
     $zdanie = "Bardzo lubię jeść dobre jedzenie";
     $temp = explode(' ',$zdanie);
     print_r ($liczby) ;
