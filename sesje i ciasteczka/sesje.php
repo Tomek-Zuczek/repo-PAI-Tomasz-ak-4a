@@ -1,15 +1,16 @@
 <?php
-session_start();
+    session_start();
 ?>
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
+    <?php
 
-$_SESSION["favcolor"] = 12;
-$_SESSION["favanimal"] = "kebap";
-?>
+        $_SESSION["favcolor"] = 12;
+        $_SESSION["favanimal"] = "kebap";
+        echo "Session variables are set.";
+    ?>
 
-</body>
+    </body>
 </html>

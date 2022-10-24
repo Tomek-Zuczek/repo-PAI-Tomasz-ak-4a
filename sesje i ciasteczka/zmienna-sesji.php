@@ -3,28 +3,28 @@
 ?>
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<?php
-    echo "Favorite number is " . $_SESSION["favcolor"] . ".<br>";
-    echo "Favorite food is " . $_SESSION["favanimal"] . ".";
-?>
-<br>
+    <?php
+        echo "Favorite number is " . $_SESSION["favcolor"] . ".<br>";
+        echo "Favorite food is " . $_SESSION["favanimal"] . ".";
+    ?>
+    <br>
 
-<form action="./zmienna-sesji.php" method="POST">
+    <form action="./zmienna-sesji.php" method="POST">
 
-    <input type="submit" value="Destroy" name="submit"/>
-
-
-</form>
-
-<?php
-    if(isset($_POST['submit'])){
-        session_destroy();
-    }
-
-?>
+        <input type="button" value="Destroy" name="destroy"/>
 
 
-</body>
+    </form>
+
+    <?php
+        if(isset($_POST['destroy'])){
+            session_destroy();
+        }
+
+    ?>
+
+
+    </body>
 </html>

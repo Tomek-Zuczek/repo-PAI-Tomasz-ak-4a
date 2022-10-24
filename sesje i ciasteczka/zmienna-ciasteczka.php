@@ -1,6 +1,4 @@
-<?php
-setcookie("user", "", time() - 3600);
-?>
+
 <html>
 <body>
 
@@ -9,10 +7,16 @@ setcookie("user", "", time() - 3600);
 ?>
 
 <form>
-    <input type="submit" value="Delete" name="delete"/>
+    <input type="button" value="Delete" name="delete"/>
 
 
 </form>
+
+<?php
+    if(isset){
+     setcookie("10", "", time() - 3600);
+    }
+?>
 
 </body>
 </html>
