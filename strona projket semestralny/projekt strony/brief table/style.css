@@ -1,0 +1,15 @@
+td{
+    border: solid black 1px;
+    padding-right: 100px;
+    
+}
+
+#info{
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(155, 204, 83);
+}
+
+#cat{
+    background-color: rgb(238, 225, 208);
+}
