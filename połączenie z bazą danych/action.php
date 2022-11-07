@@ -1,5 +1,8 @@
 <?php
     
+    $login = "";
+    $haslo = "";
+    
     if(isset($_POST['save'])){
         if(isset($_POST['login'])){
             $login = (string)$_POST['login'];
@@ -16,12 +19,15 @@
     $username = 'root';
     $password = '';
 
-    $conn new mysqli($hostname, $username, $password, $database);
+    $conn = new mysqli($hostname, $username, $password, $database);
 
-    $sql = "INSERT INTO 'dane_użytkownika' ('login', 'haslo') 
+    $sql = "INSERT INTO `dane` (`login`, `haslo`) 
             VALUES ('$login', '$haslo')";
 
-    if($result = $conn -> query($sql)) echo "Dodano nowy rekord";
-    else echo "Nie udało się dodac nowego rekordu"
+    if($result = $conn -> query($sql)){
+        echo "Dodano nowy rekord";
+    }else{
+        echo "Nie udało się dodac nowego rekordu";
+    } 
 ?>
 

@@ -4,13 +4,13 @@
 
     <body>
 
-    <form action="/action.php">
+    <form action="./action.php">
         Login:<br>
-        <input type="text" name="login">    
+        <input type="text" name="login[]">    
         <br><br>
 
         Hasło:<br>
-        <input type="password" name="password">
+        <input type="password" name="password[]">
         <br><br>
         
         Zapamiętać dane do bazy danych?
