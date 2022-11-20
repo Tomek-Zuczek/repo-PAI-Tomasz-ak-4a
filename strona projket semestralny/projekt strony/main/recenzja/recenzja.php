@@ -1,0 +1,12 @@
+    <div class="">
+        <h4 id="maintext">Recenzja potrawy:</h4>
+
+        <form>
+            <input type="text" id="lokalizcja" name="lokalizcja" placeholder="Nazwa restauracji"><br>
+            <input type="text" id="potrawa" name="potrawa" placeholder="Nazwa potrawy"><br>
+            <textarea id="review"></textarea><br>
+
+            <input type="submit" value="Opublikuj recenzję" id="submit">
+        </form>
+
+    </div>

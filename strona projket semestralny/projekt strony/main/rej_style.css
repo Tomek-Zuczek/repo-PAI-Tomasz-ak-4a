@@ -1,0 +1,41 @@
+.rej{
+    font-size: 1.8vw;
+}
+
+#opis{
+    font-size: 1vw;
+    margin-left: -7%;
+}
+
+.rejestracja{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+
+.formsy{
+    margin-left: -7%;
+}
+
+#pseudonim{
+    margin-top: 0.5%;
+    width: 31.7%;
+}
+
+#email{
+    margin-top: 0.5%;
+    width: 31.7%;
+}
+
+#haslo{
+    margin-top: 0.5%;
+    width: 31.7%;
+}
+
+#kod{
+    margin-top: 0.5%;
+    width: 31.7%;
+}
+#submit{
+    margin-top: 1%;
+}
+
