@@ -8,7 +8,7 @@
 
     $conn = new mysqli($hostname, $username, $password, $database);
 
-    $query = "SELECT * FROM users WHERE Email = '".$_SESSION["mail"]."' ";
+    $query = "SELECT * FROM users WHERE Email = '".$_SESSION['mail']."' ";
     $result = $conn->query($query);
     
     while($r = mysqli_fetch_array($result)){
@@ -21,7 +21,7 @@
     $rowx = implode(",",$row);
     $rowx1 = implode(",",$row1);
     $rowx2 = implode(",",$row2);
-    $rowx3 = implode(",",$row3);
+    $rowx3 = implode(",",$row3);    
     
     
     $result -> close();
@@ -35,7 +35,7 @@
 
         <p>Imię i nazwisko: <?php echo $rowx." ".$rowx1 ?> </p><br>
         <p>Adres email: <?php echo $rowx2?> </p><br>
-        <p>Pseudonim: <?php echo$rowx3?> </p><br>
+        <p>Pseudonim: <?php echo $rowx3?> </p><br>
         <button class="edit">Edytuj pseudonim</button>
 
         <form action="./konto_mod.php" method="POST">
