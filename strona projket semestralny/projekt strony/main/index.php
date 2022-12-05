@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="wybieranie.css">
         <link rel="stylesheet" href="recenzja.css">
         <link rel="stylesheet" href="konto.css">
+        <link rel="stylesheet" href="recenzje_uzytk.css">
 	    <title> Smaczny Szczecin </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +31,7 @@
             <div id="background">
                 <section id="buttons">
                     <a href="?page=recenzja/recenzja"><button class="button1">Napisz recenzję</button></a>
+                    <a href="?page=recenzje_użytkownika/recenzje_użytkownika"><button class="button1">Twoje recenzje</button></a>
                     <a href="?page=logowanie/logowanie"><button class="button2">Zaloguj się</button></a>
                     <a href="?page=rejestracja/rejestracja"><button class="button3">Zarejestruj się</button></a>
                     <a href="?page=konto/konto"><button class="button4">Moje konto</button></a>
