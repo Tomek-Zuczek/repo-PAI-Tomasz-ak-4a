@@ -50,7 +50,6 @@ header{
 }
 
 
-
 h1{
     text-align: center;
     margin-top: 100px;
@@ -138,7 +137,7 @@ footer{
     outline: 0;
     border: 1px solid black;
     padding: 5px;
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 #late1{
@@ -162,6 +161,8 @@ footer{
     
 }
 
+/*
+
 .review{
     margin-top: 2%;
     margin-bottom: 5%;
@@ -172,6 +173,8 @@ footer{
     border: 1px solid black;
 
 }
+
+*/
 
 
 .info{
@@ -190,4 +193,26 @@ footer{
 
 .jezyk{
     padding-left: 10%;
+}
+
+td{
+    border: solid black 1px;
+}
+
+table{
+    margin-left: 15%;
+}
+
+#cat{
+    background-color: rgb(238, 225, 208);
+    width: 20%;
+    padding: 5px 0px 5px 0px;
+}
+
+#con{
+    width: 50px;
+}
+
+#wstecz{
+
 }

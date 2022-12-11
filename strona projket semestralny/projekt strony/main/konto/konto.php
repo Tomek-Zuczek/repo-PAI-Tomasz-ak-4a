@@ -36,7 +36,6 @@
         <p>Imię i nazwisko: <?php echo $rowx." ".$rowx1 ?> </p><br>
         <p>Adres email: <?php echo $rowx2?> </p><br>
         <p>Pseudonim: <?php echo $rowx3?> </p><br>
-        <button class="edit">Edytuj pseudonim</button>
 
         <form action="./konto_mod.php" method="POST">
             <input type="text" name="imie" placeholder="imie">

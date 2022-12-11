@@ -1,8 +1,8 @@
     <div class="">
         <h4 id="maintext">Recenzja potrawy:</h4>
 
-        <form>
-            <input type="text" id="lokalizcja" name="lokalizacja" placeholder="Nazwa restauracji"><br>
+        <form action="./dodawanie_recenzji.php" method="POST">
+            <input type="text" id="lokalizacja" name="lokalizacja" placeholder="Nazwa restauracji"><br>
             <input type="text" id="potrawa" name="potrawa" placeholder="Nazwa potrawy"><br>
             <textarea id="review" name="review"></textarea><br>
 
